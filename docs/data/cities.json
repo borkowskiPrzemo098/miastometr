@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T18:09:21.906Z",
+  "generatedAt": "2026-09-22T19:35:23.923Z",
   "sources": {
     "gus": "GUS BDL (bdl.stat.gov.pl)",
     "gios": "GIOS GIOŚ (api.gios.gov.pl)"
@@ -27,6 +27,22 @@
         "lastUpdate": "2026-09-22 19:25:34",
         "stationCount": 9
       },
+      "migrationBalancePer1000": {
+        "value": 7.18,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 2374,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 17,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 581,
+        "year": "2025"
+      },
       "unemploymentPer1000": 16.1
     },
     {
@@ -50,6 +66,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:25:34",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -2.89,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1476,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 4.5,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 412.5,
+        "year": "2025"
       },
       "unemploymentPer1000": 23.4
     },
@@ -75,6 +107,22 @@
         "lastUpdate": "2026-09-22 19:25:34",
         "stationCount": 2
       },
+      "migrationBalancePer1000": {
+        "value": -3.25,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1335,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 10.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 463.1,
+        "year": "2025"
+      },
       "unemploymentPer1000": 25.3
     },
     {
@@ -99,6 +147,22 @@
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 3
       },
+      "migrationBalancePer1000": {
+        "value": -1.91,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1857,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 7.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 479.9,
+        "year": "2025"
+      },
       "unemploymentPer1000": 14
     },
     {
@@ -118,6 +182,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -3.36,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1255,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 15.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 514.9,
+        "year": "2025"
+      },
       "unemploymentPer1000": 30.6
     },
     {
@@ -137,6 +217,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -0.18,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 977,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 6.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 453.7,
+        "year": "2025"
+      },
       "unemploymentPer1000": 26.2
     },
     {
@@ -160,6 +256,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 3
+      },
+      "migrationBalancePer1000": {
+        "value": -2.33,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1445,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 12.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 519,
+        "year": "2025"
       },
       "unemploymentPer1000": 21.6
     },
@@ -185,6 +297,22 @@
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -0.99,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1671,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 10.8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 510.9,
+        "year": "2025"
+      },
       "unemploymentPer1000": 18.8
     },
     {
@@ -209,6 +337,22 @@
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -4.21,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1238,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 14.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 482.3,
+        "year": "2025"
+      },
       "unemploymentPer1000": 18.7
     },
     {
@@ -228,6 +372,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -2.39,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1318,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 15.2,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 565,
+        "year": "2025"
+      },
       "unemploymentPer1000": 17.6
     },
     {
@@ -252,6 +412,22 @@
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 2
       },
+      "migrationBalancePer1000": {
+        "value": -0.02,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 2096,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 11,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 591.7,
+        "year": "2025"
+      },
       "unemploymentPer1000": 11.6
     },
     {
@@ -271,6 +447,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -1.82,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1230,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 15.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 443.4,
+        "year": "2025"
+      },
       "unemploymentPer1000": 18.3
     },
     {
@@ -290,6 +482,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -3.58,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 946,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8.8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 484.6,
+        "year": "2025"
+      },
       "unemploymentPer1000": 13.4
     },
     {
@@ -309,6 +517,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -0.53,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1149,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 28.7,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 524.1,
+        "year": "2025"
+      },
       "unemploymentPer1000": 19
     },
     {
@@ -328,6 +552,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -3.26,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1024,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 526.6,
+        "year": "2025"
+      },
       "unemploymentPer1000": 16.1
     },
     {
@@ -351,6 +591,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -4.55,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 844,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8.2,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 412.1,
+        "year": "2025"
       },
       "unemploymentPer1000": 18.5
     },
@@ -376,6 +632,22 @@
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -1.91,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1244,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 7.2,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 417,
+        "year": "2025"
+      },
       "unemploymentPer1000": 15.2
     },
     {
@@ -395,6 +667,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": 1.57,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1163,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 24.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 398.2,
+        "year": "2025"
+      },
       "unemploymentPer1000": 16.7
     },
     {
@@ -419,6 +707,22 @@
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -1.49,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1253,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 31.2,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 473.9,
+        "year": "2025"
+      },
       "unemploymentPer1000": 21.7
     },
     {
@@ -438,6 +742,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -1.45,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1199,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 29.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 440.4,
+        "year": "2025"
+      },
       "unemploymentPer1000": 16
     },
     {
@@ -461,6 +781,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -1.78,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1313,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 9.9,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 528.9,
+        "year": "2025"
       },
       "unemploymentPer1000": 22.7
     },
@@ -486,6 +822,22 @@
         "lastUpdate": "2026-09-22 19:20:27",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -2.42,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1297,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 21.8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 454.5,
+        "year": "2025"
+      },
       "unemploymentPer1000": 12.3
     },
     {
@@ -509,6 +861,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:15:20",
         "stationCount": 2
+      },
+      "migrationBalancePer1000": {
+        "value": -2.89,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1716,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 21.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 515.7,
+        "year": "2025"
       },
       "unemploymentPer1000": 18.9
     },
@@ -534,6 +902,22 @@
         "lastUpdate": "2026-09-22 19:15:20",
         "stationCount": 2
       },
+      "migrationBalancePer1000": {
+        "value": 1.97,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1922,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 5.5,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 502.2,
+        "year": "2025"
+      },
       "unemploymentPer1000": 19.6
     },
     {
@@ -557,6 +941,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:22:18",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -2.84,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1434,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 10.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 521,
+        "year": "2025"
       },
       "unemploymentPer1000": 20.7
     },
@@ -582,6 +982,22 @@
         "lastUpdate": "2026-09-22 19:22:18",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -7.26,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1408,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 29.2,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 477.6,
+        "year": "2025"
+      },
       "unemploymentPer1000": 33.4
     },
     {
@@ -601,6 +1017,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -6.36,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1715,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 464.6,
+        "year": "2025"
+      },
       "unemploymentPer1000": 19.5
     },
     {
@@ -624,6 +1056,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:22:18",
         "stationCount": 5
+      },
+      "migrationBalancePer1000": {
+        "value": -0.66,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 2576,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8.8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 584.2,
+        "year": "2025"
       },
       "unemploymentPer1000": 8.9
     },
@@ -649,6 +1097,22 @@
         "lastUpdate": "2026-09-22 19:23:04",
         "stationCount": 3
       },
+      "migrationBalancePer1000": {
+        "value": -0.62,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1851,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8.9,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 492.2,
+        "year": "2025"
+      },
       "unemploymentPer1000": 25.8
     },
     {
@@ -673,6 +1137,22 @@
         "lastUpdate": "2026-09-22 19:23:04",
         "stationCount": 3
       },
+      "migrationBalancePer1000": {
+        "value": -0.91,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 2044,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 7.5,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 519.2,
+        "year": "2025"
+      },
       "unemploymentPer1000": 18.3
     },
     {
@@ -692,6 +1172,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -2.35,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1831,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 21.1,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 613.9,
+        "year": "2025"
+      },
       "unemploymentPer1000": 18
     },
     {
@@ -715,6 +1211,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:23",
         "stationCount": 2
+      },
+      "migrationBalancePer1000": {
+        "value": -0.38,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1919,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 13.7,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 521.6,
+        "year": "2025"
       },
       "unemploymentPer1000": 18.6
     },
@@ -740,6 +1252,22 @@
         "lastUpdate": "2026-09-22 19:20:23",
         "stationCount": 2
       },
+      "migrationBalancePer1000": {
+        "value": -3.62,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1715,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 24.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 510.5,
+        "year": "2025"
+      },
       "unemploymentPer1000": 26.3
     },
     {
@@ -763,6 +1291,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:23",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -2.27,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1477,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 12,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 526.1,
+        "year": "2025"
       },
       "unemploymentPer1000": 22.1
     },
@@ -788,6 +1332,22 @@
         "lastUpdate": "2026-09-22 19:20:23",
         "stationCount": 5
       },
+      "migrationBalancePer1000": {
+        "value": 1.24,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 2395,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 18.2,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 595.4,
+        "year": "2025"
+      },
       "unemploymentPer1000": 13.7
     },
     {
@@ -811,6 +1371,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:15:17",
         "stationCount": 2
+      },
+      "migrationBalancePer1000": {
+        "value": -1.57,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1984,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 19.9,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 499.8,
+        "year": "2025"
       },
       "unemploymentPer1000": 20
     },
@@ -836,6 +1412,22 @@
         "lastUpdate": "2026-09-22 19:35:32",
         "stationCount": 4
       },
+      "migrationBalancePer1000": {
+        "value": -2.99,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1487,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 16.5,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 506,
+        "year": "2025"
+      },
       "unemploymentPer1000": 12.2
     },
     {
@@ -859,6 +1451,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:35:32",
         "stationCount": 3
+      },
+      "migrationBalancePer1000": {
+        "value": 0.26,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1574,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8.9,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 531,
+        "year": "2025"
       },
       "unemploymentPer1000": 18
     },
@@ -884,6 +1492,22 @@
         "lastUpdate": "2026-09-22 19:35:32",
         "stationCount": 2
       },
+      "migrationBalancePer1000": {
+        "value": -1.56,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1079,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 24.8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 481.8,
+        "year": "2025"
+      },
       "unemploymentPer1000": 36.6
     },
     {
@@ -907,6 +1531,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:35:32",
         "stationCount": 3
+      },
+      "migrationBalancePer1000": {
+        "value": -4.39,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1148,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 5.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 493.5,
+        "year": "2025"
       },
       "unemploymentPer1000": 41.2
     },
@@ -932,6 +1572,22 @@
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -0.81,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1604,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 9.8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 513.3,
+        "year": "2025"
+      },
       "unemploymentPer1000": 21.7
     },
     {
@@ -956,6 +1612,22 @@
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 6
       },
+      "migrationBalancePer1000": {
+        "value": 3.12,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 2127,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 9.9,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 562.1,
+        "year": "2025"
+      },
       "unemploymentPer1000": 16.1
     },
     {
@@ -978,6 +1650,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -0.34,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 2079,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 6.1,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 521.3,
+        "year": "2025"
       },
       "unemploymentPer1000": 13
     },
@@ -1002,6 +1690,22 @@
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -0.26,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 3064,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 20.7,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 636.6,
+        "year": "2025"
+      },
       "unemploymentPer1000": 12.5
     },
     {
@@ -1024,6 +1728,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:14",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -1.83,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1302,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 7.8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 454.3,
+        "year": "2025"
       },
       "unemploymentPer1000": 26.9
     },
@@ -1048,6 +1768,22 @@
         "lastUpdate": "2026-09-22 19:20:14",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -1.79,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1594,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 10,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 516.1,
+        "year": "2025"
+      },
       "unemploymentPer1000": 13.7
     },
     {
@@ -1070,6 +1806,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:22",
         "stationCount": 4
+      },
+      "migrationBalancePer1000": {
+        "value": -1.18,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1703,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 17,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 613.2,
+        "year": "2025"
       },
       "unemploymentPer1000": 29.4
     },
@@ -1094,6 +1846,22 @@
         "lastUpdate": "2026-09-22 19:20:22",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -1.75,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1259,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 9.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 509.8,
+        "year": "2025"
+      },
       "unemploymentPer1000": 27.8
     },
     {
@@ -1112,6 +1880,22 @@
         "year": "2025"
       },
       "air": null,
+      "migrationBalancePer1000": {
+        "value": -1.4,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1258,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 17.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 475.9,
+        "year": "2025"
+      },
       "unemploymentPer1000": 17.6
     },
     {
@@ -1134,6 +1918,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:16:08",
         "stationCount": 4
+      },
+      "migrationBalancePer1000": {
+        "value": -3.3,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1800,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 6.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 528.7,
+        "year": "2025"
       },
       "unemploymentPer1000": 28.5
     },
@@ -1158,6 +1958,22 @@
         "lastUpdate": "2026-09-22 19:25:13",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -4.53,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1381,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 6.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 478.7,
+        "year": "2025"
+      },
       "unemploymentPer1000": 36.4
     },
     {
@@ -1180,6 +1996,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:25:13",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -7.32,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1094,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 9.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 474.9,
+        "year": "2025"
       },
       "unemploymentPer1000": 33.8
     },
@@ -1204,6 +2036,22 @@
         "lastUpdate": "2026-09-22 19:25:13",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -4.42,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1429,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 27.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 457.3,
+        "year": "2025"
+      },
       "unemploymentPer1000": 38.8
     },
     {
@@ -1226,6 +2074,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:25:13",
         "stationCount": 3
+      },
+      "migrationBalancePer1000": {
+        "value": -1.33,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1742,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 9.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 538.8,
+        "year": "2025"
       },
       "unemploymentPer1000": 24.5
     },
@@ -1250,6 +2114,22 @@
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -1.8,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1459,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 5.1,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 444.5,
+        "year": "2025"
+      },
       "unemploymentPer1000": 23.7
     },
     {
@@ -1272,6 +2152,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -6.16,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1289,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 9.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 480,
+        "year": "2025"
       },
       "unemploymentPer1000": 45
     },
@@ -1296,6 +2192,22 @@
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 4
       },
+      "migrationBalancePer1000": {
+        "value": 3.17,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1901,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 11.5,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 522.7,
+        "year": "2025"
+      },
       "unemploymentPer1000": 26.7
     },
     {
@@ -1318,6 +2230,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:18",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -4.98,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1246,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 17.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 433.4,
+        "year": "2025"
       },
       "unemploymentPer1000": 27.3
     },
@@ -1342,6 +2270,22 @@
         "lastUpdate": "2026-09-22 19:20:13",
         "stationCount": 4
       },
+      "migrationBalancePer1000": {
+        "value": -2.56,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1536,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 5.5,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 509.7,
+        "year": "2025"
+      },
       "unemploymentPer1000": 26.6
     },
     {
@@ -1364,6 +2308,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:20:13",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -3.74,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1181,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 6.6,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 445.5,
+        "year": "2025"
       },
       "unemploymentPer1000": 28.5
     },
@@ -1388,6 +2348,22 @@
         "lastUpdate": "2026-09-22 19:20:13",
         "stationCount": 1
       },
+      "migrationBalancePer1000": {
+        "value": -1.03,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1147,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 7.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 430.8,
+        "year": "2025"
+      },
       "unemploymentPer1000": 25.9
     },
     {
@@ -1405,6 +2381,10 @@
         "lastUpdate": "2026-09-22 19:35:22",
         "stationCount": 10
       },
+      "migrationBalancePer1000": null,
+      "firmsPer10k": null,
+      "greenAreaPerCapita": null,
+      "housingUnitsPer1000": null,
       "unemploymentPer1000": null
     },
     {
@@ -1427,6 +2407,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:35:22",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -5.86,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1349,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 13.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 449.1,
+        "year": "2025"
       },
       "unemploymentPer1000": 36.5
     },
@@ -1451,6 +2447,22 @@
         "lastUpdate": "2026-09-22 19:35:22",
         "stationCount": 3
       },
+      "migrationBalancePer1000": {
+        "value": -4.04,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1410,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8.4,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 474.7,
+        "year": "2025"
+      },
       "unemploymentPer1000": 44.7
     },
     {
@@ -1474,6 +2486,22 @@
         "lastUpdate": "2026-09-22 19:35:22",
         "stationCount": 2
       },
+      "migrationBalancePer1000": {
+        "value": -4.76,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1221,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 16.2,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 509.8,
+        "year": "2025"
+      },
       "unemploymentPer1000": 28.1
     },
     {
@@ -1496,6 +2524,22 @@
         "category": "Bardzo dobry",
         "lastUpdate": "2026-09-22 19:35:22",
         "stationCount": 1
+      },
+      "migrationBalancePer1000": {
+        "value": -5.87,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 1310,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 5.3,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 497.2,
+        "year": "2025"
       },
       "unemploymentPer1000": 21.2
     }

@@ -6,6 +6,10 @@
     { key:'population', label:'Ludność', unit:'mieszkańców', better:'high', get:c=>c.population && c.population.value, colHead:'Liczba mieszkańców' },
     { key:'unemploymentPer1000', label:'Bezrobocie', unit:'os. / 1000 mieszk.', better:'low', get:c=>c.unemploymentPer1000, colHead:'Bezrobocie (na 1000 mieszk.)' },
     { key:'air', label:'Jakość powietrza', unit:'indeks GIOŚ', better:'low', get:c=>c.air && typeof c.air.avgIndex==='number' ? c.air.avgIndex : null, colHead:'Indeks jakości powietrza' },
+    { key:'migrationBalancePer1000', label:'Saldo migracji', unit:'os. / 1000 mieszk.', better:'high', get:c=>c.migrationBalancePer1000 && c.migrationBalancePer1000.value, colHead:'Saldo migracji (na 1000 mieszk.)' },
+    { key:'firmsPer10k', label:'Firmy', unit:'podmiotów / 10 tys. mieszk.', better:'high', get:c=>c.firmsPer10k && c.firmsPer10k.value, colHead:'Podmioty gosp. (na 10 tys. mieszk.)' },
+    { key:'greenAreaPerCapita', label:'Zieleń', unit:'m² / os.', better:'high', get:c=>c.greenAreaPerCapita && c.greenAreaPerCapita.value, colHead:'Tereny zieleni (m² na mieszkańca)' },
+    { key:'housingUnitsPer1000', label:'Mieszkania', unit:'mieszkań / 1000 os.', better:'high', get:c=>c.housingUnitsPer1000 && c.housingUnitsPer1000.value, colHead:'Zasób mieszkaniowy (na 1000 os.)' },
   ];
 
   const AIR_CATEGORY_PL = ['Bardzo dobry','Dobry','Umiarkowany','Dostateczny','Zły','Bardzo zły'];
@@ -25,6 +29,7 @@
     if (metric.key === 'population') return fmtInt(v);
     if (metric.key === 'unemploymentPer1000') return fmt1(v);
     if (metric.key === 'air') return AIR_CATEGORY_PL[Math.round(v)] || fmt1(v);
+    if (metric.key === 'migrationBalancePer1000') return (v > 0 ? '+' : '') + fmt1(v);
     return fmt1(v);
   }
 
