@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://borkowskiprzemo098.github.io/miastometr/sitemap.xml
