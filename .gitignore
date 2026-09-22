@@ -1,0 +1,12 @@
+node_modules/
+fetch-log.txt
+server-log.txt
+.DS_Store
+
+# intermediate data-pipeline cache (regenerate via data/fetch*.mjs + build-dataset.mjs)
+data/raw-*.json
+data/cities.json
+data/cities-level5.json
+data/gios-stations.json
+data/fetch.log
+/tmp/

@@ -1,0 +1,1503 @@
+{
+  "generatedAt": "2026-09-22T18:09:21.906Z",
+  "sources": {
+    "gus": "GUS BDL (bdl.stat.gov.pl)",
+    "gios": "GIOS GIOŚ (api.gios.gov.pl)"
+  },
+  "cities": [
+    {
+      "id": "011212161000",
+      "level6Id": "011212161011",
+      "name": "Kraków",
+      "population": {
+        "value": 816614,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 11363.54,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 13121,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:25:34",
+        "stationCount": 9
+      },
+      "unemploymentPer1000": 16.1
+    },
+    {
+      "id": "011212262000",
+      "level6Id": "011212262011",
+      "name": "Nowy Sącz",
+      "population": {
+        "value": 79416,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8614.38,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1855,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:25:34",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 23.4
+    },
+    {
+      "id": "011212463000",
+      "level6Id": "011212463011",
+      "name": "Tarnów",
+      "population": {
+        "value": 101177,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9214.63,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2563,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:25:34",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 25.3
+    },
+    {
+      "id": "012414461000",
+      "level6Id": "012414461011",
+      "name": "Bielsko-Biała",
+      "population": {
+        "value": 163164,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8834.7,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2289,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 14
+    },
+    {
+      "id": "012414562000",
+      "level6Id": "012414562011",
+      "name": "Bytom",
+      "population": {
+        "value": 144598,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8425.37,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 4425,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 30.6
+    },
+    {
+      "id": "012414571000",
+      "level6Id": "012414571011",
+      "name": "Piekary Śląskie",
+      "population": {
+        "value": 51030,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8533.46,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1336,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 26.2
+    },
+    {
+      "id": "012414664000",
+      "level6Id": "012414664011",
+      "name": "Częstochowa",
+      "population": {
+        "value": 201439,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8432.69,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 4342,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 21.6
+    },
+    {
+      "id": "012414766000",
+      "level6Id": "012414766011",
+      "name": "Gliwice",
+      "population": {
+        "value": 166942,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9762.95,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 3134,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 18.8
+    },
+    {
+      "id": "012414778000",
+      "level6Id": "012414778011",
+      "name": "Zabrze",
+      "population": {
+        "value": 150780,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8772.04,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2813,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 18.7
+    },
+    {
+      "id": "012414863000",
+      "level6Id": "012414863011",
+      "name": "Chorzów",
+      "population": {
+        "value": 98418,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8817.96,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1735,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 17.6
+    },
+    {
+      "id": "012414869000",
+      "level6Id": "012414869011",
+      "name": "Katowice",
+      "population": {
+        "value": 277415,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 10323.6,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 3229,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 11.6
+    },
+    {
+      "id": "012414870000",
+      "level6Id": "012414870011",
+      "name": "Mysłowice",
+      "population": {
+        "value": 70160,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9165.57,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1282,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 18.3
+    },
+    {
+      "id": "012414872000",
+      "level6Id": "012414872011",
+      "name": "Ruda Śląska",
+      "population": {
+        "value": 127601,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8834.16,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1714,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 13.4
+    },
+    {
+      "id": "012414874000",
+      "level6Id": "012414874011",
+      "name": "Siemianowice Śląskie",
+      "population": {
+        "value": 62311,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8984.59,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1182,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 19
+    },
+    {
+      "id": "012414876000",
+      "level6Id": "012414876011",
+      "name": "Świętochłowice",
+      "population": {
+        "value": 44621,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8631.46,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 720,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 16.1
+    },
+    {
+      "id": "012414967000",
+      "level6Id": "012414967011",
+      "name": "Jastrzębie-Zdrój",
+      "population": {
+        "value": 80527,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8713.79,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1492,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 18.5
+    },
+    {
+      "id": "012414973000",
+      "level6Id": "012414973011",
+      "name": "Rybnik",
+      "population": {
+        "value": 128788,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9119.41,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1952,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 15.2
+    },
+    {
+      "id": "012414979000",
+      "level6Id": "012414979011",
+      "name": "Żory",
+      "population": {
+        "value": 61857,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8899.51,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1036,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 16.7
+    },
+    {
+      "id": "012415065000",
+      "level6Id": "012415065011",
+      "name": "Dąbrowa Górnicza",
+      "population": {
+        "value": 111309,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8997.19,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2411,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 21.7
+    },
+    {
+      "id": "012415068000",
+      "level6Id": "012415068011",
+      "name": "Jaworzno",
+      "population": {
+        "value": 85253,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9772.26,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1366,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 16
+    },
+    {
+      "id": "012415075000",
+      "level6Id": "012415075011",
+      "name": "Sosnowiec",
+      "population": {
+        "value": 182971,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8921.33,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 4155,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 22.7
+    },
+    {
+      "id": "012415177000",
+      "level6Id": "012415177011",
+      "name": "Tychy",
+      "population": {
+        "value": 120081,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9210.2,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1475,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:27",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 12.3
+    },
+    {
+      "id": "020811361000",
+      "level6Id": "020811361011",
+      "name": "Gorzów Wielkopolski",
+      "population": {
+        "value": 113569,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8344.5,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2143,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:15:20",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 18.9
+    },
+    {
+      "id": "020811462000",
+      "level6Id": "020811462011",
+      "name": "Zielona Góra",
+      "population": {
+        "value": 138476,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9197.57,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2710,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:15:20",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 19.6
+    },
+    {
+      "id": "023015761000",
+      "level6Id": "023015761011",
+      "name": "Kalisz",
+      "population": {
+        "value": 91059,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8260.15,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1881,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:22:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 20.7
+    },
+    {
+      "id": "023015862000",
+      "level6Id": "023015862011",
+      "name": "Konin",
+      "population": {
+        "value": 65233,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8535.83,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2179,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:22:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 33.4
+    },
+    {
+      "id": "023015963000",
+      "level6Id": "023015963011",
+      "name": "Leszno",
+      "population": {
+        "value": 58766,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8426.83,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1144,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 19.5
+    },
+    {
+      "id": "023016264000",
+      "level6Id": "023016264011",
+      "name": "Poznań",
+      "population": {
+        "value": 534239,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 10108.76,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 4775,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:22:18",
+        "stationCount": 5
+      },
+      "unemploymentPer1000": 8.9
+    },
+    {
+      "id": "023216361000",
+      "level6Id": "023216361011",
+      "name": "Koszalin",
+      "population": {
+        "value": 104582,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8455.6,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2693,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:23:04",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 25.8
+    },
+    {
+      "id": "023216562000",
+      "level6Id": "023216562011",
+      "name": "Szczecin",
+      "population": {
+        "value": 383786,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9468.23,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 7020,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:23:04",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 18.3
+    },
+    {
+      "id": "023216663000",
+      "level6Id": "023216663011",
+      "name": "Świnoujście",
+      "population": {
+        "value": 38188,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8382.25,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 686,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 18
+    },
+    {
+      "id": "030210161000",
+      "level6Id": "030210161011",
+      "name": "Jelenia Góra",
+      "population": {
+        "value": 73470,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8453.49,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1363,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:23",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 18.6
+    },
+    {
+      "id": "030210262000",
+      "level6Id": "030210262011",
+      "name": "Legnica",
+      "population": {
+        "value": 89919,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9387.26,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2365,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:23",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 26.3
+    },
+    {
+      "id": "030210365000",
+      "level6Id": "030210365011",
+      "name": "Wałbrzych",
+      "population": {
+        "value": 97546,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8655.12,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2155,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:23",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 22.1
+    },
+    {
+      "id": "030210564000",
+      "level6Id": "030210564011",
+      "name": "Wrocław",
+      "population": {
+        "value": 672601,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 11743.47,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 9185,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:23",
+        "stationCount": 5
+      },
+      "unemploymentPer1000": 13.7
+    },
+    {
+      "id": "031613261000",
+      "level6Id": "031613261011",
+      "name": "Opole",
+      "population": {
+        "value": 124563,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9298.36,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2489,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:15:17",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 20
+    },
+    {
+      "id": "040410661000",
+      "level6Id": "040410661011",
+      "name": "Bydgoszcz",
+      "population": {
+        "value": 321100,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9133.59,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 3915,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:32",
+        "stationCount": 4
+      },
+      "unemploymentPer1000": 12.2
+    },
+    {
+      "id": "040410663000",
+      "level6Id": "040410663011",
+      "name": "Toruń",
+      "population": {
+        "value": 192784,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9538.9,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 3475,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:32",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 18
+    },
+    {
+      "id": "040410762000",
+      "level6Id": "040410762011",
+      "name": "Grudziądz",
+      "population": {
+        "value": 86811,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 7913.27,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 3178,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:32",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 36.6
+    },
+    {
+      "id": "040410864000",
+      "level6Id": "040410864011",
+      "name": "Włocławek",
+      "population": {
+        "value": 98038,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8073.69,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 4038,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:32",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 41.2
+    },
+    {
+      "id": "042214163000",
+      "level6Id": "042214163011",
+      "name": "Słupsk",
+      "population": {
+        "value": 84217,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8522.04,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1831,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 21.7
+    },
+    {
+      "id": "042214361000",
+      "level6Id": "042214361011",
+      "name": "Gdańsk",
+      "population": {
+        "value": 489328,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 10851.1,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 7862,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 6
+      },
+      "unemploymentPer1000": 16.1
+    },
+    {
+      "id": "042214362000",
+      "name": "Gdynia",
+      "population": {
+        "value": 238712,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 11149.29,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 3100,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 13
+    },
+    {
+      "id": "042214364000",
+      "name": "Sopot",
+      "population": {
+        "value": 31205,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 10976.56,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 389,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 12.5
+    },
+    {
+      "id": "042815461000",
+      "name": "Elbląg",
+      "population": {
+        "value": 111089,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8599.31,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2992,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:14",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 26.9
+    },
+    {
+      "id": "042815662000",
+      "name": "Olsztyn",
+      "population": {
+        "value": 165393,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9751.41,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2273,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:14",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 13.7
+    },
+    {
+      "id": "051011661000",
+      "name": "Łódź",
+      "population": {
+        "value": 639890,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9574.1,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 18784,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:22",
+        "stationCount": 4
+      },
+      "unemploymentPer1000": 29.4
+    },
+    {
+      "id": "051011762000",
+      "name": "Piotrków Trybunalski",
+      "population": {
+        "value": 65435,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8461.1,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1822,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:22",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 27.8
+    },
+    {
+      "id": "051011963000",
+      "name": "Skierniewice",
+      "population": {
+        "value": 44814,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9380.73,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 788,
+        "year": "2025"
+      },
+      "air": null,
+      "unemploymentPer1000": 17.6
+    },
+    {
+      "id": "052615261000",
+      "name": "Kielce",
+      "population": {
+        "value": 178837,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9184.27,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 5097,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:16:08",
+        "stationCount": 4
+      },
+      "unemploymentPer1000": 28.5
+    },
+    {
+      "id": "060610961000",
+      "name": "Biała Podlaska",
+      "population": {
+        "value": 53470,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8455.52,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1944,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:25:13",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 36.4
+    },
+    {
+      "id": "060611062000",
+      "name": "Chełm",
+      "population": {
+        "value": 55661,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8516.54,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1884,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:25:13",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 33.8
+    },
+    {
+      "id": "060611064000",
+      "name": "Zamość",
+      "population": {
+        "value": 56844,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8625.62,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2206,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:25:13",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 38.8
+    },
+    {
+      "id": "060611163000",
+      "name": "Lublin",
+      "population": {
+        "value": 326685,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9361.26,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 7997,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:25:13",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 24.5
+    },
+    {
+      "id": "061813361000",
+      "name": "Krosno",
+      "population": {
+        "value": 43274,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8413.63,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1024,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 23.7
+    },
+    {
+      "id": "061813462000",
+      "name": "Przemyśl",
+      "population": {
+        "value": 54352,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8597.99,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 2445,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 45
+    },
+    {
+      "id": "061813563000",
+      "name": "Rzeszów",
+      "population": {
+        "value": 199436,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9717.46,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 5318,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 4
+      },
+      "unemploymentPer1000": 26.7
+    },
+    {
+      "id": "061813664000",
+      "name": "Tarnobrzeg",
+      "population": {
+        "value": 42730,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8448.76,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1167,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:18",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 27.3
+    },
+    {
+      "id": "062013761000",
+      "name": "Białystok",
+      "population": {
+        "value": 289217,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8992.93,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 7701,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:13",
+        "stationCount": 4
+      },
+      "unemploymentPer1000": 26.6
+    },
+    {
+      "id": "062013862000",
+      "name": "Łomża",
+      "population": {
+        "value": 58925,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8510.17,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1678,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:13",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 28.5
+    },
+    {
+      "id": "062013963000",
+      "name": "Suwałki",
+      "population": {
+        "value": 67879,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9090.13,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1757,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:20:13",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 25.9
+    },
+    {
+      "id": "071412865000",
+      "name": "Warszawa",
+      "population": null,
+      "salary": null,
+      "unemployedCount": {
+        "value": 19954,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0.5,
+        "category": "Dobry",
+        "lastUpdate": "2026-09-22 19:35:22",
+        "stationCount": 10
+      },
+      "unemploymentPer1000": null
+    },
+    {
+      "id": "071422661000",
+      "name": "Ostrołęka",
+      "population": {
+        "value": 47351,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8940.75,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1730,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:22",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 36.5
+    },
+    {
+      "id": "071422763000",
+      "name": "Radom",
+      "population": {
+        "value": 191819,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 8850.52,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 8574,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:22",
+        "stationCount": 3
+      },
+      "unemploymentPer1000": 44.7
+    },
+    {
+      "id": "071427062000",
+      "name": "Płock",
+      "population": {
+        "value": 108772,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9432.16,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 3058,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:22",
+        "stationCount": 2
+      },
+      "unemploymentPer1000": 28.1
+    },
+    {
+      "id": "071427164000",
+      "name": "Siedlce",
+      "population": {
+        "value": 74251,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 9303.28,
+        "year": "2026"
+      },
+      "unemployedCount": {
+        "value": 1573,
+        "year": "2025"
+      },
+      "air": {
+        "avgIndex": 0,
+        "category": "Bardzo dobry",
+        "lastUpdate": "2026-09-22 19:35:22",
+        "stationCount": 1
+      },
+      "unemploymentPer1000": 21.2
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miastometr — porównanie miast Polski na danych GUS i GIOŚ</title>
+<meta name="description" content="Porównuj polskie miasta na prawach powiatu: wynagrodzenia, liczba ludności, bezrobocie i jakość powietrza — dane z GUS BDL i GIOŚ, bez zgadywania.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+<!--
+THESIS: A city-comparison tool earns trust by looking like a public statistical register, not a startup landing page — it refuses the generic blue-gradient "data product" template.
+OWN-WORLD: Polish civic ledger / statistical yearbook — warm paper ground, forest green + brick red + amber as named roles (Restrained-to-Full palette), Fraunces serif display for headings, IBM Plex Sans for data/UI, tabular numerals, hairline rules, no cards-of-icons.
+STORY: Visitor picks a metric, sees every city ranked instantly with real GUS/GIOŚ figures, and can stack up to three cities side by side without guessing which is "better."
+FIRST VIEWPORT: Serif headline left-aligned over a lede, a stats strip of real tabular numbers below a hairline, sortable ranking table as the page's spine.
+FORM: direction decided directly (single-direction build under session constraints; no concept-seed roll run this pass).
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md
+-->
+<a class="skip-link" href="#ranking">Przejdź do rankingu</a>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <span class="mark">Miastometr</span>
+      <span class="tag">dane GUS &amp; GIOŚ</span>
+    </div>
+    <nav class="top-nav">
+      <a href="#ranking">Ranking</a>
+      <a href="#porownanie">Porównanie</a>
+      <a href="#metodologia">Metodologia</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Przełącz tryb ciemny/jasny">Tryb ciemny</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Które miasto<br><em>naprawdę</em> ci się opłaca?</h1>
+    <p class="lede">Miastometr zestawia oficjalne dane Głównego Urzędu Statystycznego (Bank Danych Lokalnych) i Głównego Inspektoratu Ochrony Środowiska dla wszystkich polskich miast na prawach powiatu — wynagrodzenia, liczbę mieszkańców, bezrobocie i jakość powietrza w jednym, sortowalnym miejscu. Żadnych szacunków, żadnych starych rankingów z blogów.</p>
+    <div class="stats-strip" id="statsStrip">
+      <div class="stat"><b id="statCities">—</b><span>miast w bazie</span></div>
+      <div class="stat"><b id="statSources">2</b><span>oficjalne źródła danych</span></div>
+      <div class="stat"><b id="statUpdated">—</b><span>ostatnia aktualizacja</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="ranking">
+  <div class="wrap">
+    <h2 class="section-title">Ranking miast</h2>
+    <p class="section-sub">Wybierz kategorię, żeby przesortować wszystkie miasta od najlepszego do najsłabszego wyniku. Kliknij miasto, aby dodać je do porównania.</p>
+
+    <div class="controls">
+      <div class="search-box">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="text" id="searchInput" placeholder="Szukaj miasta, np. Poznań…" autocomplete="off">
+      </div>
+      <div class="metric-tabs" id="metricTabs" role="tablist" aria-label="Kategoria rankingu"></div>
+      <button class="order-toggle" id="orderToggle" type="button">
+        <span id="orderLabel">Od najlepszego</span>
+        <svg id="orderIcon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+      </button>
+    </div>
+
+    <div class="table-wrap">
+      <table class="rank">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Miasto</th>
+            <th id="metricColHead">Wartość</th>
+            <th class="bar-cell" scope="col">Skala</th>
+          </tr>
+        </thead>
+        <tbody id="rankBody">
+          <tr><td colspan="4" class="loading-row">Wczytywanie danych…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="porownanie">
+  <div class="wrap">
+    <h2 class="section-title">Porównanie miast</h2>
+    <p class="section-sub">Wybierz do trzech miast, aby zobaczyć je obok siebie we wszystkich kategoriach.</p>
+
+    <div class="compare-picker" id="comparePicker"></div>
+    <div class="compare-grid" id="compareGrid" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="metodologia">
+  <div class="wrap">
+    <h2 class="section-title">Skąd te dane</h2>
+    <p class="section-sub">Miastometr nie szacuje i nie zbiera danych od użytkowników — każda liczba pochodzi z publicznego rejestru instytucji państwowej.</p>
+    <div class="method-grid">
+      <div class="method-item">
+        <div class="num">01</div>
+        <h3>Wynagrodzenia i ludność</h3>
+        <p>Bank Danych Lokalnych GUS (bdl.stat.gov.pl) — przeciętne miesięczne wynagrodzenie brutto oraz stan ludności dla gmin miejskich na prawach powiatu, najnowszy dostępny rok.</p>
+      </div>
+      <div class="method-item">
+        <div class="num">02</div>
+        <h3>Bezrobocie</h3>
+        <p>Rejestrowana liczba bezrobotnych (GUS BDL) przeliczona na wskaźnik na 1000 mieszkańców, aby móc porównywać miasta o różnej wielkości.</p>
+      </div>
+      <div class="method-item">
+        <div class="num">03</div>
+        <h3>Jakość powietrza</h3>
+        <p>Bieżący indeks jakości powietrza GIOŚ (api.gios.gov.pl), średnia z najbliższych stacji pomiarowych danego miasta — odświeżany najczęściej, bo zmienia się najszybciej.</p>
+      </div>
+      <div class="method-item">
+        <div class="num">04</div>
+        <h3>Zasięg</h3>
+        <p>Miasta na prawach powiatu w Polsce — tam, gdzie GUS publikuje dane najpełniej i najbardziej wiarygodnie. Mniejsze gminy pominięto ze względu na niekompletne szeregi danych.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Miastometr — nieoficjalne narzędzie budowane na publicznych danych GUS i GIOŚ. Brak logowania, brak reklam śledzących.</span>
+    <span id="lastUpdatedFooter">—</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

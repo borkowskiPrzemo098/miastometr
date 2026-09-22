@@ -1,0 +1,992 @@
+{
+  "Czerniawa": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Dzierżoniów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Kłodzko": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Legnica": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Oława": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Osieczów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Wałbrzych": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Wrocław": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 5,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Grudziądz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Inowrocław": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Toruń": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Bydgoszcz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 4,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Ciechocinek": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Koniczynka": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Włocławek": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Zielonka": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Biała Podlaska": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:13"
+  },
+  "Lublin": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:25:13"
+  },
+  "Zamość": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:13"
+  },
+  "Gajew": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:22"
+  },
+  "Łódź": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 4,
+    "lastUpdate": "2026-09-22 19:20:22"
+  },
+  "Pabianice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:22"
+  },
+  "Parzniewice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:22"
+  },
+  "Piotrków Trybunalski": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:22"
+  },
+  "Radomsko": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:22"
+  },
+  "Zgierz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:22"
+  },
+  "Gorzów Wielkopolski": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Smolary Bytnickie": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Sulęcin": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Wschowa": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Żary": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Zielona Góra": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Kraków": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 9,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Nowy Sącz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Skawina": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Szymbark": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Tarnów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Trzebinia": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Niepołomice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Zakopane": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Belsk Duży": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Granica": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Legionowo": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Otwock": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Piastów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Płock": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Radom": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Siedlce": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Warszawa": {
+    "avgIndex": 0.5,
+    "category": "Dobry",
+    "stationCount": 10,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Żyrardów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Kędzierzyn-Koźle": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Kluczbork": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Olesno": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Opole": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Zdzieszowice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Białystok": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 4,
+    "lastUpdate": "2026-09-22 19:20:13"
+  },
+  "Borsukowizna": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:13"
+  },
+  "Łomża": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:13"
+  },
+  "Jarosław": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Jasło": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Krosno": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Nisko": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Przemyśl": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Rzeszów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 4,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Sanok": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Tarnobrzeg": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Gdańsk": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 6,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Słupsk": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Gdynia": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Kościerzyna": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Malbork": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Lębork": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Liniewko Kościerskie": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Łeba": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Nowiny": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Połaniec": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Starachowice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Bielsko-Biała": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Częstochowa": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Dąbrowa Górnicza": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Gliwice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Katowice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Rybnik": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Sosnowiec": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Tychy": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Ustroń": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Wodzisław Śląski": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Złoty Potok": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Żywiec": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Elbląg": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:14"
+  },
+  "Gołdap": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:14"
+  },
+  "Olsztyn": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:14"
+  },
+  "Diabla Góra": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:14"
+  },
+  "Konin": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Piła": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Poznań": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 5,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Krzyżówka": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Borówiec": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Kalisz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Widuchowa": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:23:04"
+  },
+  "Koszalin": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:23:04"
+  },
+  "Szczecinek": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:23:04"
+  },
+  "Szczecin": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 3,
+    "lastUpdate": "2026-09-22 19:23:04"
+  },
+  "Jelenia Góra": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Ostrołęka": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Dębica": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Krempna": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Szarów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Pleszew": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Nakło nad Notecią": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Guty Duże": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Kielce": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 4,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Ełk": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:14"
+  },
+  "Ostróda": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:14"
+  },
+  "Duszniki-Zdrój": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Mielec": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 2,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Kaszów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Sucha Beskidzka": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Rabka-Zdrój": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Małogoszcz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Oświęcim": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Złockie": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Koziegłowy": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Florianka": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:13"
+  },
+  "Kołobrzeg": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:23:04"
+  },
+  "Suwałki": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:13"
+  },
+  "Nowa Ruda": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Lubliniec": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Olkusz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Biała": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Chełm": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:13"
+  },
+  "Zabierzów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Zawiercie": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Goczałkowice-Zdrój": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Gołuchów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Racibórz": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Jastrzębie-Zdrój": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Augustów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:13"
+  },
+  "Trzebnica": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Połczyn-Zdrój": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:23:04"
+  },
+  "Sopot": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Konstancin-Jeziorna": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Cieszyn": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Brzeg": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Mosina": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Nowa Sól": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Myślenice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Nowy Targ": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Krapkowice": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Uście Gorlickie Wysowa": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:34"
+  },
+  "Zabrze": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:27"
+  },
+  "Wysokie Mazowieckie": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:13"
+  },
+  "Krasne": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Ciechanów": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:22"
+  },
+  "Tomaszów Lubelski": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:25:13"
+  },
+  "Krotoszyn": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:22:18"
+  },
+  "Nysa": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:17"
+  },
+  "Lubań": {
+    "avgIndex": 1,
+    "category": "Dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Szlichtyngowa": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:15:20"
+  },
+  "Ostrowiec Świętokrzyski": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Solec Zdrój": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:16:08"
+  },
+  "Kobierzyce": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:23"
+  },
+  "Solec Kujawski": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:35:32"
+  },
+  "Tczew": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:18"
+  },
+  "Braniewo": {
+    "avgIndex": 0,
+    "category": "Bardzo dobry",
+    "stationCount": 1,
+    "lastUpdate": "2026-09-22 19:20:14"
+  }
+}
