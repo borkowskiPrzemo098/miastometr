@@ -192,25 +192,7 @@
     });
   }
 
-  function initTheme() {
-    const btn = document.getElementById('themeToggle');
-    const saved = (() => { try { return localStorage.getItem('miastometr-theme'); } catch(e){ return null; } })();
-    if (saved === 'dark' || saved === 'light') {
-      document.documentElement.setAttribute('data-theme', saved);
-      btn.textContent = saved === 'dark' ? 'Tryb jasny' : 'Tryb ciemny';
-    }
-    btn.addEventListener('click', () => {
-      const cur = document.documentElement.getAttribute('data-theme') ||
-        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      const next = cur === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      btn.textContent = next === 'dark' ? 'Tryb jasny' : 'Tryb ciemny';
-      try { localStorage.setItem('miastometr-theme', next); } catch(e){}
-    });
-  }
-
   async function main() {
-    initTheme();
     initOrderToggle();
     buildMetricTabs();
     document.getElementById('searchInput').addEventListener('input', renderTable);
