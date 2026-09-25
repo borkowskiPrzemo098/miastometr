@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-25T12:00:00Z",
+  "title": "Design System: Miastometr",
+  "extensions": {
+    "colorMeta": {
+      "signal-orange": { "role": "primary", "displayName": "Signal Orange", "canonical": "oklch(65.6% 0.193 38.5)", "tonalRamp": ["#2C0000", "#530000", "#7C0600", "#A82800", "#D64400", "#F77043", "#FF9E77", "#FFCFAC"] },
+      "signal-orange-deep": { "role": "primary", "displayName": "Signal Orange Deep", "canonical": "#C4441A" },
+      "bakelite-teal": { "role": "secondary", "displayName": "Bakelite Teal", "canonical": "oklch(52.5% 0.087 192.8)", "tonalRamp": ["#001111", "#002D2C", "#004B4A", "#126B69", "#2F8D8B", "#5EAEAC", "#8ED3D0", "#C1FCF9"] },
+      "bakelite-teal-deep": { "role": "secondary", "displayName": "Bakelite Teal Deep", "canonical": "#0A5D5B" },
+      "map-land-teal": { "role": "secondary", "displayName": "Map Land Teal", "canonical": "#23908D" },
+      "mustard": { "role": "tertiary", "displayName": "Mustard", "canonical": "oklch(81.1% 0.166 85.0)", "tonalRamp": ["#1D0300", "#3C1A00", "#5F3600", "#835300", "#A97200", "#C99500", "#EBBD54", "#FFE993"] },
+      "zone-red": { "role": "tertiary", "displayName": "Zone Red", "canonical": "oklch(57.1% 0.209 21.1)", "tonalRamp": ["#2E0000", "#560000", "#810013", "#AE0E2B", "#DD3043", "#FE6369", "#FF9394", "#FFC7C5"] },
+      "zone-green": { "role": "tertiary", "displayName": "Zone Green", "canonical": "oklch(61.9% 0.153 149.1)", "tonalRamp": ["#001300", "#003000", "#005016", "#00712E", "#239547", "#57B66D", "#89DA98", "#BDFFC8"] },
+      "instrument-black": { "role": "neutral", "displayName": "Instrument Black", "canonical": "oklch(22.6% 0.004 106.7)", "tonalRamp": ["#0B0B0A", "#242423", "#40403E", "#5E5E5C", "#7D7D7B", "#9E9E9C", "#C4C4C2", "#EEEEED"] },
+      "face-white": { "role": "neutral", "displayName": "Face White", "canonical": "#FFFFFF" },
+      "enamel": { "role": "neutral", "displayName": "Enamel", "canonical": "oklch(95.2% 0.008 121.6)", "tonalRamp": ["#0B0B09", "#232421", "#3F403C", "#5D5E5A", "#7C7E79", "#9D9F9A", "#C3C5C0", "#EEEFEB"] },
+      "aluminium": { "role": "neutral", "displayName": "Aluminium", "canonical": "oklch(87.4% 0.010 131.4)", "tonalRamp": ["#0A0C09", "#232521", "#3E413C", "#5C5F59", "#7B7F78", "#9CA09A", "#C2C5C0", "#EDEFEB"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink 2", "canonical": "#44463F" },
+      "ink-3": { "role": "neutral", "displayName": "Ink 3", "canonical": "#6A6D64" },
+      "key-lip": { "role": "neutral", "displayName": "Key Lip", "canonical": "#D8DBD4" },
+      "row-highlight": { "role": "neutral", "displayName": "Row Highlight", "canonical": "#FFF6D6" },
+      "lamp-off": { "role": "neutral", "displayName": "Lamp Off", "canonical": "#B9BCB5" }
+    },
+    "dataScales": {
+      "gios-air-lamp": [
+        { "level": "Bardzo dobry", "color": "#2E9E4F" },
+        { "level": "Dobry", "color": "#8CC63F" },
+        { "level": "Umiarkowany", "color": "#F2B705" },
+        { "level": "Dostateczny", "color": "#EE5A24" },
+        { "level": "Zły", "color": "#D7263D" },
+        { "level": "Bardzo zły", "color": "#8E1B2B" }
+      ],
+      "zone-band": { "splits": ["33.3%", "66.6%"], "colors": ["#D7263D", "#F2B705", "#2E9E4F"], "neutral": "#1C1C1A at 80% (dial) / 75% (edge scale)" },
+      "compare-needles": ["#EE5A24", "#0F7A78", "#1C1C1A"]
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only; the city profile name shares the voice. Uppercase, wdth 125, balanced wrap." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles and the data nameplate title. Uppercase, wdth 125." },
+      "title": { "displayName": "Title", "purpose": "Leader strip heading, results heading, city plate, map readout name, lamp caption. Uppercase, wdth 118-125." },
+      "readout": { "displayName": "Readout", "purpose": "Instrument readings; tabular numerals, wdth 108-110." },
+      "body": { "displayName": "Body", "purpose": "Lede, subtitles and notes, 58-64ch. 16px under 760px." },
+      "label": { "displayName": "Label", "purpose": "Uppercase tracked labels: table headers, gauge titles, legend headings, nameplate terms." }
+    },
+    "shadows": [
+      { "name": "lift", "value": "0 8px 18px -10px rgba(28,28,26,.6), 0 1px 2px rgba(28,28,26,.25)", "purpose": "Default for anything sitting on a panel: buttons, fields, keys, readouts, legends, tooltips, toast." },
+      { "name": "face", "value": "0 1px 0 rgba(255,255,255,.7) inset, 0 -2px 0 rgba(0,0,0,.06) inset, 0 14px 28px -14px rgba(28,28,26,.55), 0 2px 4px rgba(28,28,26,.18)", "purpose": "Enamel dial faces, ranking table, results board." },
+      { "name": "key-lip", "value": "inset 0 -5px 0 rgba(0,0,0,.22)", "purpose": "Resting bevel on filled buttons; white keys and toggles use inset 0 -5px 0 #D8DBD4." },
+      { "name": "pressed", "value": "inset 0 3px 6px rgba(0,0,0,.6)", "purpose": "Checked keys, toggled-on controls, active presets (.45 on button :active)." },
+      { "name": "housing", "value": "0 24px 40px -22px rgba(0,0,0,.8)", "purpose": "Black gauge cluster and mixer housings." },
+      { "name": "map-frame", "value": "0 20px 36px -18px rgba(0,0,0,.7)", "purpose": "Recessed teal map plate." },
+      { "name": "needle", "value": "feDropShadow dx=1.6 dy=2.2 stdDeviation=1.1 flood #000 @ .32", "purpose": "Every dial needle, SVG filter." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(.16,1,.3,1)", "purpose": "All UI transitions (buttons 150ms, nav 200ms, leader hover 200ms, toast 350ms). No overshoot." },
+      { "name": "ease-knob", "value": "cubic-bezier(.22,1,.36,1)", "purpose": "Knob rotation 500ms, edge-scale needle 700ms, result bars 600ms, order toggle 350ms, map dot radius 250ms. No overshoot." },
+      { "name": "needle-spring", "value": "stiffness 150, damping 13, 4 substeps/frame, dt capped at 34ms, settle at |v|,|x| < 0.04deg", "purpose": "The only overshoot in the system: dial needles swing slightly underdamped. Stagger 70-110ms across clusters. Snaps under prefers-reduced-motion." },
+      { "name": "reduced-motion", "value": "transition/animation 0.01ms", "purpose": "All motion collapses under prefers-reduced-motion." }
+    ],
+    "dialGeometry": {
+      "viewBox": "-10 0 220 152",
+      "pivot": [100, 128],
+      "radius": 96,
+      "sweepDeg": 58,
+      "ticks": "41 ticks; every 4th major (len 12, w 1.8), every 2nd mid (len 7), minor (len 4, w 1)",
+      "bandRadius": "R + 6, stroke 5 (neutral: stroke 4, black, opacity .8)",
+      "numeralRadius": "R + 17, 0-100 step 20",
+      "mirrorArc": "R - 32, stroke #c7cbc3",
+      "knob": "132px, 24 grip ridges, 8 positions over -135deg..+135deg"
+    },
+    "breakpoints": [
+      { "name": "wide", "value": "1100px" },
+      { "name": "tablet", "value": "900px" },
+      { "name": "mobile", "value": "760px" },
+      { "name": "small", "value": "560px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Black Button",
+      "kind": "button",
+      "refersTo": "button-black",
+      "description": "Primary action: bevelled black key that presses in.",
+      "html": "<button class=\"ds-btn ds-btn-black\">Pełny profil miasta</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; gap:8px; font-family:'Archivo','Arial Narrow',sans-serif; border:2.5px solid #1C1C1A; border-radius:10px; padding:12px 22px 14px; font-weight:800; font-size:.98rem; cursor:pointer; box-shadow: inset 0 -5px 0 rgba(0,0,0,.22), 0 8px 18px -10px rgba(28,28,26,.6), 0 1px 2px rgba(28,28,26,.25); transition: transform .15s cubic-bezier(.16,1,.3,1), box-shadow .15s cubic-bezier(.16,1,.3,1); } .ds-btn:hover { transform: translateY(-1px); } .ds-btn:active { transform: translateY(2px); box-shadow: inset 0 3px 6px rgba(0,0,0,.45); } .ds-btn:focus-visible { outline:3px solid #1C1C1A; outline-offset:3px; } .ds-btn-black { background:#1C1C1A; color:#FFFFFF; }"
+    },
+    {
+      "name": "Orange Button",
+      "kind": "button",
+      "refersTo": "button-orange",
+      "description": "Share action; black text on signal orange.",
+      "html": "<button class=\"ds-btn-o\">Kopiuj link do profilu</button>",
+      "css": ".ds-btn-o { font-family:'Archivo','Arial Narrow',sans-serif; background:#EE5A24; color:#1C1C1A; border:2.5px solid #1C1C1A; border-radius:10px; padding:12px 22px 14px; font-weight:800; font-size:.98rem; cursor:pointer; box-shadow: inset 0 -5px 0 rgba(0,0,0,.22), 0 8px 18px -10px rgba(28,28,26,.6); transition: transform .15s cubic-bezier(.16,1,.3,1); } .ds-btn-o:hover { transform: translateY(-1px); } .ds-btn-o:active { transform: translateY(2px); box-shadow: inset 0 3px 6px rgba(0,0,0,.45); } .ds-btn-o:focus-visible { outline:3px solid #1C1C1A; outline-offset:3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action; white key with black border.",
+      "html": "<button class=\"ds-btn-g\">Dodaj do porównania</button>",
+      "css": ".ds-btn-g { font-family:'Archivo','Arial Narrow',sans-serif; background:#FFFFFF; color:#1C1C1A; border:2.5px solid #1C1C1A; border-radius:10px; padding:12px 22px 14px; font-weight:800; font-size:.98rem; cursor:pointer; box-shadow: inset 0 -5px 0 rgba(0,0,0,.22), 0 8px 18px -10px rgba(28,28,26,.6); transition: transform .15s cubic-bezier(.16,1,.3,1); } .ds-btn-g:hover { transform: translateY(-1px); } .ds-btn-g:active { transform: translateY(2px); box-shadow: inset 0 3px 6px rgba(0,0,0,.45); } .ds-btn-g:focus-visible { outline:3px solid #1C1C1A; outline-offset:3px; }"
+    },
+    {
+      "name": "Piano Keys",
+      "kind": "chip",
+      "refersTo": "piano-key",
+      "description": "Segmented metric switch; checked key is pressed in with a mustard lamp.",
+      "html": "<div class=\"ds-keys\" role=\"radiogroup\"><button class=\"ds-key\" role=\"radio\" aria-checked=\"true\">Płace</button><button class=\"ds-key\" role=\"radio\" aria-checked=\"false\">Ludność</button><button class=\"ds-key\" role=\"radio\" aria-checked=\"false\">Bezrobocie</button><button class=\"ds-key\" role=\"radio\" aria-checked=\"false\">Powietrze</button></div>",
+      "css": ".ds-keys { display:flex; border:2.5px solid #1C1C1A; border-radius:12px; overflow:hidden; background:#1C1C1A; width:fit-content; box-shadow:0 8px 18px -10px rgba(28,28,26,.6), 0 1px 2px rgba(28,28,26,.25); } .ds-key { appearance:none; border:0; border-right:2px solid #1C1C1A; position:relative; cursor:pointer; background:#FFFFFF; color:#1C1C1A; font-family:'Archivo','Arial Narrow',sans-serif; padding:13px 16px 15px; font-weight:800; font-size:.92rem; box-shadow: inset 0 -5px 0 #D8DBD4; transition: background-color .12s, box-shadow .12s; } .ds-key:last-child { border-right:0; } .ds-key:hover { background:#f6f7f3; } .ds-key:focus-visible { outline:3px solid #1C1C1A; outline-offset:-3px; } .ds-key[aria-checked=\"true\"] { background:#1C1C1A; color:#FFFFFF; box-shadow: inset 0 3px 6px rgba(0,0,0,.6); } .ds-key[aria-checked=\"true\"]::after { content:''; position:absolute; left:50%; top:6px; width:6px; height:6px; margin-left:-3px; border-radius:50%; background:#F2B705; box-shadow:0 0 8px #F2B705; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "White field, heavy black border, mustard focus halo.",
+      "html": "<label class=\"ds-field\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"8.5\" cy=\"8.5\" r=\"5.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M13 13l4.5 4.5\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg><input type=\"search\" placeholder=\"Szukaj miasta, np. Toruń\"></label>",
+      "css": ".ds-field { position:relative; display:flex; align-items:center; width:320px; } .ds-field svg { position:absolute; left:16px; width:18px; height:18px; pointer-events:none; color:#1C1C1A; } .ds-field input { width:100%; appearance:none; font-family:'Archivo','Arial Narrow',sans-serif; font-size:1rem; border:2.5px solid #1C1C1A; background:#FFFFFF; color:#1C1C1A; border-radius:12px; padding:13px 16px 13px 46px; font-weight:600; caret-color:#EE5A24; box-shadow:0 8px 18px -10px rgba(28,28,26,.6), 0 1px 2px rgba(28,28,26,.25); } .ds-field input::placeholder { color:#6A6D64; } .ds-field input:focus { outline:none; box-shadow:0 0 0 4px #F2B705, 0 8px 18px -10px rgba(28,28,26,.6); }"
+    },
+    {
+      "name": "City Plate",
+      "kind": "input",
+      "refersTo": "city-plate",
+      "description": "The hero's primary select: a black nameplate with a mustard chevron.",
+      "html": "<div class=\"ds-plate\"><select><option>WARSZAWA</option><option>KRAKÓW</option></select><svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M3 6l5 5 5-5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg></div>",
+      "css": ".ds-plate { position:relative; width:280px; } .ds-plate select { width:100%; appearance:none; cursor:pointer; border:0; border-radius:12px; background:#1C1C1A; color:#FFFFFF; font-family:'Archivo','Arial Narrow',sans-serif; font-weight:900; font-variation-settings:'wdth' 118; font-size:1.45rem; text-transform:uppercase; padding:16px 52px 16px 18px; box-shadow:0 8px 18px -10px rgba(28,28,26,.6); } .ds-plate select:focus { outline:none; box-shadow:0 0 0 4px #FFFFFF, 0 8px 18px -10px rgba(28,28,26,.6); } .ds-plate svg { position:absolute; right:18px; top:50%; width:20px; height:20px; margin-top:-10px; color:#F2B705; pointer-events:none; }"
+    },
+    {
+      "name": "Panel Meter",
+      "kind": "custom",
+      "refersTo": "meter-face",
+      "description": "Signature white enamel dial: ticks, zone band outside ticks, numerals outside the band, black needle with pivot cap.",
+      "html": "<div class=\"ds-meter\"><svg viewBox=\"-10 0 220 152\" aria-hidden=\"true\"><path d=\"M13.58 71.52A102 102 0 0 1 65.11 32.15\" stroke=\"#D7263D\" stroke-width=\"5\" fill=\"none\"/><path d=\"M65.11 32.15A102 102 0 0 1 134.89 32.15\" stroke=\"#F2B705\" stroke-width=\"5\" fill=\"none\"/><path d=\"M134.89 32.15A102 102 0 0 1 186.42 71.52\" stroke=\"#2E9E4F\" stroke-width=\"5\" fill=\"none\"/><path d=\"M45.73 94.09A64 64 0 0 1 154.27 94.09\" stroke=\"#c7cbc3\" stroke-width=\"3\" fill=\"none\"/><g stroke=\"#1C1C1A\" stroke-width=\"1.8\"><line x1=\"18.6\" y1=\"77.13\" x2=\"28.77\" y2=\"83.49\"/><line x1=\"50.25\" y1=\"47.44\" x2=\"56.47\" y2=\"55.52\"/><line x1=\"90\" y1=\"32.52\" x2=\"91.25\" y2=\"44.45\"/><line x1=\"133.07\" y1=\"37.83\" x2=\"129.2\" y2=\"49.2\"/><line x1=\"169.03\" y1=\"63.83\" x2=\"160.6\" y2=\"72.3\"/><line x1=\"181.4\" y1=\"77.13\" x2=\"171.23\" y2=\"83.49\"/></g><g font-family=\"Archivo,sans-serif\" font-weight=\"700\" font-size=\"9\" text-anchor=\"middle\" fill=\"#1C1C1A\"><text x=\"4.3\" y=\"71\">0</text><text x=\"181\" y=\"71\">100</text><text x=\"100\" y=\"18\">50</text></g><g transform=\"rotate(24 100 128)\"><path d=\"M100 141 L100 35\" stroke=\"#1C1C1A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M100 141 L100 134\" stroke=\"#1C1C1A\" stroke-width=\"6\" stroke-linecap=\"round\"/></g><circle cx=\"100\" cy=\"128\" r=\"8\" fill=\"#1C1C1A\"/><circle cx=\"100\" cy=\"128\" r=\"2.6\" fill=\"#EEF0EA\"/></svg></div>",
+      "css": ".ds-meter { width:320px; background:#FFFFFF; border:3px solid #1C1C1A; border-radius:14px; padding:8px 8px 4px; box-shadow:0 1px 0 rgba(255,255,255,.7) inset, 0 -2px 0 rgba(0,0,0,.06) inset, 0 14px 28px -14px rgba(28,28,26,.55), 0 2px 4px rgba(28,28,26,.18); } .ds-meter svg { display:block; width:100%; height:auto; }"
+    },
+    {
+      "name": "Indicator Lamp",
+      "kind": "custom",
+      "description": "Air quality reading: a GIOŚ-colored lamp with a thick black rim, never a needle.",
+      "html": "<div class=\"ds-lamp-row\"><span class=\"ds-lamp\" style=\"--lamp:#2E9E4F\"></span><span class=\"ds-lamp\" style=\"--lamp:#F2B705\"></span><span class=\"ds-lamp\" style=\"--lamp:#D7263D\"></span><span class=\"ds-lamp\"></span><span class=\"ds-lamp-txt\">Dobry</span></div>",
+      "css": ".ds-lamp-row { display:flex; align-items:center; gap:16px; } .ds-lamp { display:block; width:48px; height:48px; border-radius:50%; background:var(--lamp, #B9BCB5); border:6px solid #1C1C1A; } .ds-lamp-txt { font-family:'Archivo','Arial Narrow',sans-serif; font-weight:900; text-transform:uppercase; font-variation-settings:'wdth' 118; background:#1C1C1A; color:#FFFFFF; padding:4px 14px; border-radius:8px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky white header with a 3px black seam and enamel hover chips.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">Ranking</a><a href=\"#\">Mapa</a><a href=\"#\">Profil miasta</a><a href=\"#\">Dopasuj</a><a href=\"#\">Porównaj</a></nav>",
+      "css": ".ds-nav { display:flex; gap:4px; background:#FFFFFF; border-bottom:3px solid #1C1C1A; padding:14px 12px; font-family:'Archivo','Arial Narrow',sans-serif; } .ds-nav a { color:#1C1C1A; text-decoration:none; font-weight:700; font-size:.95rem; padding:8px 12px; border-radius:8px; transition: background-color .2s cubic-bezier(.16,1,.3,1); } .ds-nav a:hover { background:#EEF0EA; } .ds-nav a:focus-visible { outline:3px solid #1C1C1A; outline-offset:3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The PRL Panel Meter",
+    "overview": "Miastometr is a measuring instrument, not a comparison site. Every city is read off a white enamel dial with black ticks and a red / mustard / green scale band, housed in signal-orange, teal and mustard bakelite panels joined by black seams. The reference world is 1970s Polish lab and switchboard hardware (ERA, Meratronik): rotary selector knobs, piano-key switches, faders, indicator lamps and engraved nameplates. The UI borrows their physical grammar: things are pressed, turned and read, and the needle does the talking.\n\nThe palette is committed and saturated at the panel scale, but each instrument face stays white and quiet so readings stay legible. Type is a single variable family, Archivo, stretched from expanded placard caps (wdth 125) for headings down to plain width for body and condensed tabular numerals for readings. Density is medium: generous panel padding, compact instruments.\n\nThe system is light only, by explicit user request. There are no dark-mode tokens and `color-scheme` is pinned to light. The rejected look is the category's blue card-grid dashboard.",
+    "keyCharacteristics": [
+      "Full-bleed color panels, alternating orange / enamel / teal / white / mustard / enamel, separated by 3px black seams.",
+      "White enamel dial faces inside a single black bezel; needles that swing on a spring.",
+      "Archivo from wdth 125 uppercase placards to tabular-numeral readouts.",
+      "Physical controls: rotary knob, piano keys, faders, indicator lamps.",
+      "Tactile depth: inset bottom lips on keys and buttons, soft drop shadows under housings, never flat cards."
+    ],
+    "rules": [
+      { "name": "The Three-Zone Rule", "body": "Zone red and zone green appear only as the outer thirds of the scale band (split at 33.3% / 66.6%) and the colors derived from it (map dots, legend, the comparison winner dot). Mustard is also a panel and signal color, but on a white face it always means the middle zone.", "section": "colors" },
+      { "name": "The Neutral Size Rule", "body": "Population is not better or worse. Its dials carry a solid black band at 80% opacity instead of zones, and its map dots are white.", "section": "colors" },
+      { "name": "The Lamp Rule", "body": "Air quality is categorical, so it is shown as an indicator lamp in the GIOŚ category color, never as a percentile needle. When air quality is selected the hero dial fades to 16% and a lamp replaces it; the lamp scale uses the six GIOŚ levels from very good to very bad.", "section": "colors" },
+      { "name": "The Three Needles Rule", "body": "Comparisons use orange, teal and black needles in that order, and the same three colors mark each city's chip everywhere in the compare view.", "section": "colors" },
+      { "name": "The Tabular Reading Rule", "body": "Every number that can change (table cells, readouts, values, tick numerals) uses tabular numerals so needles and columns don't jitter.", "section": "typography" },
+      { "name": "The Width Axis Rule", "body": "Hierarchy is carried by width and weight together: wdth 125 for placards, 108–118 for titles and readings, 100 for body. Don't substitute a second family.", "section": "typography" },
+      { "name": "The Press-In Rule", "body": "A control that is on is pushed in (inset shadow, black fill), never raised or glowing. Hover lifts by 1–3px at most.", "section": "elevation" },
+      { "name": "The One Bezel Rule", "body": "Each instrument has exactly one black frame. A dial inside a leader tile, gauge or compare card loses its own border and shadow; the tile or the black cluster is the bezel. Never nest a bordered card in a bordered card.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do alternate full-bleed panels in the order orange, enamel, teal, white, mustard, enamel, joined by 3px black seams (`3px solid #1C1C1A`).",
+      "Do put numerals outside the zone band so needles sweep only over ticks.",
+      "Do give every instrument exactly one black bezel, and strip borders and shadows from dials nested inside it.",
+      "Do use the ease-out curves only in CSS (`cubic-bezier(.16,1,.3,1)` for UI, `cubic-bezier(.22,1,.36,1)` for knob and needle-like slides). The only overshoot in the system is the JS needle spring (stiffness 150, damping 13).",
+      "Do show air quality as an indicator lamp in the GIOŚ category color.",
+      "Do keep population dials neutral: a black band, no zones, white map dots.",
+      "Do use tabular numerals for every reading and a black 3px focus outline (white on orange and teal panels).",
+      "Do set black text on signal orange and mustard, and white text on teal and black."
+    ],
+    "donts": [
+      "Don't add dark-mode tokens or a dark theme; the system is light only by user request.",
+      "Don't drive a percentile needle for air quality.",
+      "Don't use zone red or zone green outside the scale band and its derived map, legend and winner marks.",
+      "Don't nest a bordered card inside a bordered card.",
+      "Don't add bouncy or overshooting CSS easing; overshoot belongs to the needle spring alone.",
+      "Don't put eyebrows or kickers above headings; a section opens with its uppercase title.",
+      "Don't use a second typeface; widen or condense Archivo instead.",
+      "Don't fall back to the blue card-grid dashboard look of comparison sites."
+    ]
+  }
+}
