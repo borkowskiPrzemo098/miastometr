@@ -1,0 +1,332 @@
+{
+ "Kraków": {
+  "lat": 50.0469,
+  "lon": 19.9972,
+  "voivodeship": "małopolskie"
+ },
+ "Nowy Sącz": {
+  "lat": 49.6103,
+  "lon": 20.7149,
+  "voivodeship": "małopolskie"
+ },
+ "Tarnów": {
+  "lat": 50.026,
+  "lon": 20.9641,
+  "voivodeship": "małopolskie"
+ },
+ "Bielsko-Biała": {
+  "lat": 49.8121,
+  "lon": 19.0292,
+  "voivodeship": "śląskie"
+ },
+ "Bytom": {
+  "lat": 50.347,
+  "lon": 18.9232,
+  "voivodeship": "śląskie"
+ },
+ "Piekary Śląskie": {
+  "lat": 50.384,
+  "lon": 18.9456,
+  "voivodeship": "śląskie"
+ },
+ "Częstochowa": {
+  "lat": 50.812,
+  "lon": 19.1132,
+  "voivodeship": "śląskie"
+ },
+ "Gliwice": {
+  "lat": 50.3011,
+  "lon": 18.6623,
+  "voivodeship": "śląskie"
+ },
+ "Zabrze": {
+  "lat": 50.3086,
+  "lon": 18.7864,
+  "voivodeship": "śląskie"
+ },
+ "Chorzów": {
+  "lat": 50.2979,
+  "lon": 18.9544,
+  "voivodeship": "śląskie"
+ },
+ "Katowice": {
+  "lat": 50.2599,
+  "lon": 19.0216,
+  "voivodeship": "śląskie"
+ },
+ "Mysłowice": {
+  "lat": 50.2415,
+  "lon": 19.1415,
+  "voivodeship": "śląskie"
+ },
+ "Ruda Śląska": {
+  "lat": 50.2858,
+  "lon": 18.8748,
+  "voivodeship": "śląskie"
+ },
+ "Siemianowice Śląskie": {
+  "lat": 50.3121,
+  "lon": 19.0177,
+  "voivodeship": "śląskie"
+ },
+ "Świętochłowice": {
+  "lat": 50.298,
+  "lon": 18.9062,
+  "voivodeship": "śląskie"
+ },
+ "Jastrzębie-Zdrój": {
+  "lat": 49.9607,
+  "lon": 18.5994,
+  "voivodeship": "śląskie"
+ },
+ "Rybnik": {
+  "lat": 50.1106,
+  "lon": 18.5532,
+  "voivodeship": "śląskie"
+ },
+ "Żory": {
+  "lat": 50.0389,
+  "lon": 18.6806,
+  "voivodeship": "śląskie"
+ },
+ "Dąbrowa Górnicza": {
+  "lat": 50.3696,
+  "lon": 19.289,
+  "voivodeship": "śląskie"
+ },
+ "Jaworzno": {
+  "lat": 50.1895,
+  "lon": 19.2725,
+  "voivodeship": "śląskie"
+ },
+ "Sosnowiec": {
+  "lat": 50.2781,
+  "lon": 19.1343,
+  "voivodeship": "śląskie"
+ },
+ "Tychy": {
+  "lat": 50.1144,
+  "lon": 18.9966,
+  "voivodeship": "śląskie"
+ },
+ "Gorzów Wielkopolski": {
+  "lat": 52.7306,
+  "lon": 15.2108,
+  "voivodeship": "lubuskie"
+ },
+ "Zielona Góra": {
+  "lat": 51.9384,
+  "lon": 15.505,
+  "voivodeship": "lubuskie"
+ },
+ "Kalisz": {
+  "lat": 51.7473,
+  "lon": 18.0795,
+  "voivodeship": "wielkopolskie"
+ },
+ "Konin": {
+  "lat": 52.2559,
+  "lon": 18.2679,
+  "voivodeship": "wielkopolskie"
+ },
+ "Leszno": {
+  "lat": 51.8436,
+  "lon": 16.5804,
+  "voivodeship": "wielkopolskie"
+ },
+ "Poznań": {
+  "lat": 52.4007,
+  "lon": 16.9197,
+  "voivodeship": "wielkopolskie"
+ },
+ "Koszalin": {
+  "lat": 54.2072,
+  "lon": 16.2175,
+  "voivodeship": "zachodniopomorskie"
+ },
+ "Szczecin": {
+  "lat": 53.4302,
+  "lon": 14.551,
+  "voivodeship": "zachodniopomorskie"
+ },
+ "Świnoujście": {
+  "lat": 53.827,
+  "lon": 14.3357,
+  "voivodeship": "zachodniopomorskie"
+ },
+ "Jelenia Góra": {
+  "lat": 50.8501,
+  "lon": 15.6537,
+  "voivodeship": "dolnośląskie"
+ },
+ "Legnica": {
+  "lat": 51.2082,
+  "lon": 16.1603,
+  "voivodeship": "dolnośląskie"
+ },
+ "Wałbrzych": {
+  "lat": 50.7659,
+  "lon": 16.2825,
+  "voivodeship": "dolnośląskie"
+ },
+ "Wrocław": {
+  "lat": 51.1263,
+  "lon": 16.9782,
+  "voivodeship": "dolnośląskie"
+ },
+ "Opole": {
+  "lat": 50.6788,
+  "lon": 17.9299,
+  "voivodeship": "opolskie"
+ },
+ "Bydgoszcz": {
+  "lat": 53.1297,
+  "lon": 18.0294,
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ "Toruń": {
+  "lat": 53.0145,
+  "lon": 18.5966,
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ "Grudziądz": {
+  "lat": 53.4725,
+  "lon": 18.7619,
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ "Włocławek": {
+  "lat": 52.6656,
+  "lon": 19.0961,
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ "Słupsk": {
+  "lat": 54.4636,
+  "lon": 17.0209,
+  "voivodeship": "pomorskie"
+ },
+ "Gdańsk": {
+  "lat": 54.4288,
+  "lon": 18.7983,
+  "voivodeship": "pomorskie"
+ },
+ "Gdynia": {
+  "lat": 54.5233,
+  "lon": 18.604,
+  "voivodeship": "pomorskie"
+ },
+ "Sopot": {
+  "lat": 54.4448,
+  "lon": 18.5685,
+  "voivodeship": "pomorskie"
+ },
+ "Elbląg": {
+  "lat": 54.1559,
+  "lon": 19.4045,
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ "Olsztyn": {
+  "lat": 53.7766,
+  "lon": 20.4778,
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ "Łódź": {
+  "lat": 51.7728,
+  "lon": 19.4785,
+  "voivodeship": "łódzkie"
+ },
+ "Piotrków Trybunalski": {
+  "lat": 51.4083,
+  "lon": 19.6962,
+  "voivodeship": "łódzkie"
+ },
+ "Skierniewice": {
+  "lat": 51.958,
+  "lon": 20.1448,
+  "voivodeship": "łódzkie"
+ },
+ "Kielce": {
+  "lat": 50.854,
+  "lon": 20.6099,
+  "voivodeship": "świętokrzyskie"
+ },
+ "Biała Podlaska": {
+  "lat": 52.0338,
+  "lon": 23.1194,
+  "voivodeship": "lubelskie"
+ },
+ "Chełm": {
+  "lat": 51.1356,
+  "lon": 23.4939,
+  "voivodeship": "lubelskie"
+ },
+ "Zamość": {
+  "lat": 50.7212,
+  "lon": 23.2596,
+  "voivodeship": "lubelskie"
+ },
+ "Lublin": {
+  "lat": 51.2506,
+  "lon": 22.5701,
+  "voivodeship": "lubelskie"
+ },
+ "Krosno": {
+  "lat": 49.689,
+  "lon": 21.7535,
+  "voivodeship": "podkarpackie"
+ },
+ "Przemyśl": {
+  "lat": 49.7835,
+  "lon": 22.7885,
+  "voivodeship": "podkarpackie"
+ },
+ "Rzeszów": {
+  "lat": 50.0133,
+  "lon": 22.0162,
+  "voivodeship": "podkarpackie"
+ },
+ "Tarnobrzeg": {
+  "lat": 50.5838,
+  "lon": 21.7118,
+  "voivodeship": "podkarpackie"
+ },
+ "Białystok": {
+  "lat": 53.1275,
+  "lon": 23.1471,
+  "voivodeship": "podlaskie"
+ },
+ "Łomża": {
+  "lat": 53.1824,
+  "lon": 22.0522,
+  "voivodeship": "podlaskie"
+ },
+ "Suwałki": {
+  "lat": 54.1028,
+  "lon": 22.9321,
+  "voivodeship": "podlaskie"
+ },
+ "Warszawa": {
+  "lat": 52.2334,
+  "lon": 21.0711,
+  "voivodeship": "mazowieckie"
+ },
+ "Ostrołęka": {
+  "lat": 53.0843,
+  "lon": 21.5669,
+  "voivodeship": "mazowieckie"
+ },
+ "Radom": {
+  "lat": 51.4023,
+  "lon": 21.1542,
+  "voivodeship": "mazowieckie"
+ },
+ "Płock": {
+  "lat": 52.5353,
+  "lon": 19.7136,
+  "voivodeship": "mazowieckie"
+ },
+ "Siedlce": {
+  "lat": 52.1616,
+  "lon": 22.2813,
+  "voivodeship": "mazowieckie"
+ }
+}

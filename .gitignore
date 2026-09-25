@@ -10,3 +10,6 @@ data/cities-level5.json
 data/gios-stations.json
 data/fetch.log
 /tmp/
+
+# design-review screenshots (regenerated each review round)
+.impeccable/review/

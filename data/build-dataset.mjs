@@ -47,21 +47,26 @@ function cleanName(name) {
     .trim();
 }
 
+// BDL names Warsaw's gmina "M.st.Warszawa od 2002", which neither the parent-id
+// lookup nor the name join resolves, so its level-6 id is pinned here.
+const LEVEL6_OVERRIDE = { 'Warszawa': '071412865011' };
+
 const out = [];
 for (const c of cities.filter(c => !/do 2002$/.test(c.name))) {
   const displayName = cleanName(c.name);
-  const salRec = (c.level6Id && salaryById.get(c.level6Id)) || salaryByName.get(displayName) || null;
-  const popRec = (c.level6Id && popById.get(c.level6Id)) || popByName.get(displayName) || null;
+  const l6 = c.level6Id || LEVEL6_OVERRIDE[displayName];
+  const salRec = (l6 && salaryById.get(l6)) || salaryByName.get(displayName) || null;
+  const popRec = (l6 && popById.get(l6)) || popByName.get(displayName) || null;
   const unempRec = unempById.get(c.id);
   const airRec = air[displayName];
-  const migRec = (c.level6Id && migrationById.get(c.level6Id)) || migrationByName.get(displayName) || null;
-  const firmsRec = (c.level6Id && firmsById.get(c.level6Id)) || firmsByName.get(displayName) || null;
-  const greenRec = (c.level6Id && greenById.get(c.level6Id)) || greenByName.get(displayName) || null;
-  const housingRec = (c.level6Id && housingById.get(c.level6Id)) || housingByName.get(displayName) || null;
+  const migRec = (l6 && migrationById.get(l6)) || migrationByName.get(displayName) || null;
+  const firmsRec = (l6 && firmsById.get(l6)) || firmsByName.get(displayName) || null;
+  const greenRec = (l6 && greenById.get(l6)) || greenByName.get(displayName) || null;
+  const housingRec = (l6 && housingById.get(l6)) || housingByName.get(displayName) || null;
 
   out.push({
     id: c.id,
-    level6Id: c.level6Id,
+    level6Id: l6,
     name: displayName,
     population: latestVal(popRec),
     salary: latestVal(salRec),

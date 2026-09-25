@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "fraunces",
+        "createdAt": "2026-09-22T18:21:13.894Z",
+        "reason": "Deliberate choice documented in index.html THESIS/OWN-WORLD comment: Fraunces serif display was picked specifically to evoke a Polish civic-ledger/statistical-yearbook feel, not a default pick — pairing with IBM Plex Sans for data/UI."
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "border-top: 3px solid",
+        "createdAt": "2026-09-25T09:35:25.276Z",
+        "reason": "Claude: false positive, .leaders (styles.css:176) is a flat full-width divider rule with no border-radius; the 3px black seam is the panel-meter world's housing seam."
+      }
+    ]
+  }
+}

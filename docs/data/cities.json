@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T19:35:23.923Z",
+  "generatedAt": "2026-09-25T09:15:43.197Z",
   "sources": {
     "gus": "GUS BDL (bdl.stat.gov.pl)",
     "gios": "GIOS GIOŚ (api.gios.gov.pl)"
@@ -2368,9 +2368,16 @@
     },
     {
       "id": "071412865000",
+      "level6Id": "071412865011",
       "name": "Warszawa",
-      "population": null,
-      "salary": null,
+      "population": {
+        "value": 1866729,
+        "year": "2025"
+      },
+      "salary": {
+        "value": 13267.98,
+        "year": "2026"
+      },
       "unemployedCount": {
         "value": 19954,
         "year": "2025"
@@ -2381,11 +2388,23 @@
         "lastUpdate": "2026-09-22 19:35:22",
         "stationCount": 10
       },
-      "migrationBalancePer1000": null,
-      "firmsPer10k": null,
-      "greenAreaPerCapita": null,
-      "housingUnitsPer1000": null,
-      "unemploymentPer1000": null
+      "migrationBalancePer1000": {
+        "value": 2,
+        "year": "2025"
+      },
+      "firmsPer10k": {
+        "value": 3209,
+        "year": "2025"
+      },
+      "greenAreaPerCapita": {
+        "value": 8,
+        "year": "2025"
+      },
+      "housingUnitsPer1000": {
+        "value": 595.5,
+        "year": "2025"
+      },
+      "unemploymentPer1000": 10.7
     },
     {
       "id": "071422661000",
