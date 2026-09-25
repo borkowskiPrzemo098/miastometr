@@ -1,6 +1,6 @@
 ---
 name: Miastometr
-description: Porównywarka 66 polskich miast, odczytywana z analogowych mierników panelowych.
+description: Porównywarka 100 polskich miast, odczytywana z analogowych mierników panelowych.
 colors:
   signal-orange: "#EE5A24"
   signal-orange-deep: "#C4441A"
