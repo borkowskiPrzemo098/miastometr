@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Miastometr: zmierz i porównaj 66 polskich miast (dane GUS i GIOŚ)</title>
-<meta name="description" content="Wybierz miasto i kategorię, a wskazówka pokaże, ile polskich miast zostawia w tyle. Wynagrodzenia, bezrobocie, migracje, firmy, zieleń, mieszkania i jakość powietrza dla 66 miast na prawach powiatu. Dane GUS BDL i GIOŚ.">
+<title>Miastometr: zmierz i porównaj 100 polskich miast (dane GUS i GIOŚ)</title>
+<meta name="description" content="Wybierz miasto i kategorię, a wskazówka pokaże, ile polskich miast zostawia w tyle. Wynagrodzenia, bezrobocie, migracje, firmy, zieleń, mieszkania i jakość powietrza dla 100 największych polskich miast. Dane GUS BDL i GIOŚ.">
 <link rel="canonical" href="https://borkowskiprzemo098.github.io/miastometr/">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#EE5A24">
@@ -12,12 +12,12 @@
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Miastometr">
-<meta property="og:title" content="Miastometr: zmierz i porównaj 66 polskich miast">
+<meta property="og:title" content="Miastometr: zmierz i porównaj 100 polskich miast">
 <meta property="og:description" content="Wskazówka pokaże, ile miast zostawia w tyle Twoje miasto. 8 wskaźników z GUS i GIOŚ, mapa, profile miast i dopasowanie miasta do siebie.">
 <meta property="og:url" content="https://borkowskiprzemo098.github.io/miastometr/">
 <meta property="og:locale" content="pl_PL">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Miastometr: zmierz i porównaj 66 polskich miast">
+<meta name="twitter:title" content="Miastometr: zmierz i porównaj 100 polskich miast">
 <meta name="twitter:description" content="Wskazówka pokaże, ile miast zostawia w tyle Twoje miasto. Dane GUS i GIOŚ.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@
   "@type": "WebApplication",
   "name": "Miastometr",
   "url": "https://borkowskiprzemo098.github.io/miastometr/",
-  "description": "Porównywarka 66 polskich miast na prawach powiatu: wynagrodzenia, ludność, bezrobocie, jakość powietrza, saldo migracji, firmy, tereny zieleni i zasób mieszkaniowy. Dane GUS BDL i GIOŚ.",
+  "description": "Porównywarka 100 największych polskich miast: wynagrodzenia, ludność, bezrobocie, jakość powietrza, saldo migracji, firmy, tereny zieleni i zasób mieszkaniowy. Dane GUS BDL i GIOŚ.",
   "applicationCategory": "UtilityApplication",
   "operatingSystem": "Any",
   "inLanguage": "pl",
@@ -76,7 +76,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <section class="hero panel panel--orange" id="start" aria-labelledby="heroTitle">
   <div class="wrap">
     <h1 class="hero-title" id="heroTitle">Zmierz swoje miasto.</h1>
-    <p class="hero-lede">66 polskich miast na prawach powiatu i 8 wskaźników z GUS oraz GIOŚ. Wybierz miasto, przekręć pokrętło, a wskazówka pokaże, ile miast zostawia w tyle.</p>
+    <p class="hero-lede">100 polskich miast i 8 wskaźników z GUS oraz GIOŚ. Wybierz miasto, przekręć pokrętło, a wskazówka pokaże, ile miast zostawia w tyle.</p>
 
     <div class="console">
       <div class="console-plate">
@@ -108,7 +108,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <div class="wrap">
     <div class="section-head">
       <h2 class="section-title" id="rankingTitle">Tablica wyników</h2>
-      <p class="section-sub">Wszystkie 66 miast w wybranej kategorii. Kliknij miasto, żeby otworzyć jego profil.</p>
+      <p class="section-sub">Wszystkie 100 miast w wybranej kategorii. Kliknij miasto, żeby otworzyć jego profil.</p>
     </div>
     <div class="keys" data-keys role="radiogroup" aria-label="Kategoria rankingu"></div>
     <div class="controls">
@@ -220,12 +220,12 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <dl class="spec">
         <div><dt>Wynagrodzenia</dt><dd>GUS BDL, badanie rozkładu wynagrodzeń na danych ZUS: przeciętne wynagrodzenie brutto w styczniu, według miejsca zamieszkania, najnowszy dostępny rok.</dd></div>
         <div><dt>Ludność</dt><dd>Bank Danych Lokalnych GUS (bdl.stat.gov.pl), najnowszy dostępny rok dla każdego miasta.</dd></div>
-        <div><dt>Bezrobocie</dt><dd>Zarejestrowani bezrobotni na 1000 mieszkańców. To nie jest stopa bezrobocia, której GUS nie publikuje dla miast.</dd></div>
+        <div><dt>Bezrobocie</dt><dd>Zarejestrowani bezrobotni na 1000 mieszkańców. To nie jest stopa bezrobocia, której GUS nie publikuje dla miast. Dla miast na prawach powiatu dane pochodzą z powiatu (to ten sam obszar), dla pozostałych z gminy miejskiej.</dd></div>
         <div><dt>Saldo migracji, firmy, zieleń, mieszkania</dt><dd>GUS BDL: saldo migracji na 1000 mieszkańców, podmioty REGON na 10 tys. mieszkańców, tereny zieleni na mieszkańca, mieszkania na 1000 osób.</dd></div>
         <div><dt>Mieszkania zamiast cen</dt><dd>GUS nie publikuje cen metra kwadratowego dla miast, dlatego pokazujemy zasób mieszkaniowy.</dd></div>
         <div><dt>Jakość powietrza</dt><dd>Indeks GIOŚ (api.gios.gov.pl) ze stacji pomiarowych w mieście, odczyt z <span id="airDate">—</span>. 12 miast nie ma stacji.</dd></div>
         <div><dt>Skala tarcz</dt><dd>Wskazówka pokazuje odsetek miast z gorszym wynikiem, od 0 do 100. Przy liczbie mieszkańców skala nie ma stref, bo większe nie znaczy lepsze.</dd></div>
-        <div><dt>Zakres</dt><dd>66 miast na prawach powiatu, bo dla nich GUS publikuje najpełniejsze dane.</dd></div>
+        <div><dt>Zakres</dt><dd>100 miast: wszystkie 66 miast na prawach powiatu oraz 34 największe pozostałe miasta, wybrane według liczby mieszkańców (GUS).</dd></div>
         <div><dt>Aktualizacja</dt><dd id="genDate">—</dd></div>
       </dl>
     </div>

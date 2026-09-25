@@ -43,11 +43,17 @@ async function main() {
   const { cities } = JSON.parse(fs.readFileSync('docs/data/cities.json'));
   const cache = fs.existsSync(CACHE) ? JSON.parse(fs.readFileSync(CACHE)) : {};
 
+  // Digits 3-4 of a BDL unit id are the TERYT voivodeship code; used to steer the
+  // lookup away from same-named villages (Piła, Marki...).
+  const TERYT = { '02': 'dolnośląskie', '04': 'kujawsko-pomorskie', '06': 'lubelskie', '08': 'lubuskie', '10': 'łódzkie', '12': 'małopolskie', '14': 'mazowieckie', '16': 'opolskie', '18': 'podkarpackie', '20': 'podlaskie', '22': 'pomorskie', '24': 'śląskie', '26': 'świętokrzyskie', '28': 'warmińsko-mazurskie', '30': 'wielkopolskie', '32': 'zachodniopomorskie' };
   for (const c of cities) {
     if (cache[c.name]) continue;
-    const url = 'https://nominatim.openstreetmap.org/search?format=json&addressdetails=1&limit=5&countrycodes=pl&accept-language=pl&q=' + encodeURIComponent(c.name);
+    const woj = TERYT[String(c.id).slice(2, 4)];
+    const q = woj ? `${c.name}, województwo ${woj}` : c.name;
+    const url = 'https://nominatim.openstreetmap.org/search?format=json&addressdetails=1&limit=8&countrycodes=pl&accept-language=pl&q=' + encodeURIComponent(q);
     const res = await (await fetch(url, { headers: { 'User-Agent': UA } })).json();
-    const hit = res.find(r => ['city', 'town', 'administrative'].includes(r.type) || r.addresstype === 'city') || res[0];
+    const inWoj = res.filter(r => !woj || (r.address && (r.address.state || '').includes(woj)));
+    const hit = inWoj.find(r => ['city', 'town'].includes(r.addresstype) || ['city', 'town'].includes(r.type)) || inWoj.find(r => r.type === 'administrative') || inWoj[0];
     if (!hit) { console.warn('NO HIT', c.name); await sleep(1100); continue; }
     cache[c.name] = {
       lat: +(+hit.lat).toFixed(4),

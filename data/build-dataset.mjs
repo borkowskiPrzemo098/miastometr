@@ -79,6 +79,31 @@ for (const c of cities.filter(c => !/do 2002$/.test(c.name))) {
   });
 }
 
+for (const c of out) c.powiatRights = true;
+
+// Largest towns without powiat rights (data/select-extra.mjs). Everything joins
+// on the town's own gmina id; registered unemployment comes from the gmina-level
+// variable because the powiat figure would cover surrounding villages too.
+const extra = fs.existsSync('data/extra-cities.json') ? readJSON('data/extra-cities.json') : [];
+const unempL6ById = new Map((fs.existsSync('data/raw-unemployment-l6.json') ? readJSON('data/raw-unemployment-l6.json') : []).map(r => [r.id, r]));
+for (const e of extra) {
+  const airRec = air[e.name];
+  out.push({
+    id: e.id,
+    level6Id: e.id,
+    name: e.name,
+    powiatRights: false,
+    population: latestVal(popById.get(e.id)),
+    salary: latestVal(salaryById.get(e.id)),
+    unemployedCount: latestVal(unempL6ById.get(e.id)),
+    air: airRec ? { avgIndex: airRec.avgIndex, category: airRec.category, lastUpdate: airRec.lastUpdate, stationCount: airRec.stationCount } : null,
+    migrationBalancePer1000: latestVal(migrationById.get(e.id)),
+    firmsPer10k: latestVal(firmsById.get(e.id)),
+    greenAreaPerCapita: latestVal(greenById.get(e.id)),
+    housingUnitsPer1000: latestVal(housingById.get(e.id)),
+  });
+}
+
 // compute unemployment per 1000 residents where both present
 for (const c of out) {
   if (c.unemployedCount && c.population && c.population.value) {

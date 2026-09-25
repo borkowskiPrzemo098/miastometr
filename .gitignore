@@ -13,3 +13,4 @@ data/fetch.log
 
 # design-review screenshots (regenerated each review round)
 .impeccable/review/
+data/raw-unemployment-l6.json

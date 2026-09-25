@@ -461,7 +461,7 @@
   function renderProfile(sweep) {
     const c = BY_NAME.get(state.city);
     $('#profileName').textContent = c.name;
-    $('#profileVoiv').textContent = `województwo ${voivOf(c.name)}${c.population ? ` · ${nf0.format(c.population.value)} mieszkańców` : ''}`;
+    $('#profileVoiv').textContent = `województwo ${voivOf(c.name)} · ${c.powiatRights ? 'miasto na prawach powiatu' : 'miasto bez praw powiatu'}${c.population ? ` · ${nf0.format(c.population.value)} mieszkańców` : ''}`;
     const ranked = METRICS.filter(m => !m.lamp && m.better !== 'size').map(m => ({ m, s: stat(m, c.name) })).filter(x => x.s);
     ranked.sort((a, b) => b.s.pct - a.s.pct);
     if (ranked.length) {

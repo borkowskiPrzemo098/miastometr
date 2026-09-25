@@ -328,5 +328,175 @@
   "lat": 52.1616,
   "lon": 22.2813,
   "voivodeship": "mazowieckie"
+ },
+ "Piła": {
+  "lat": 53.1511,
+  "lon": 16.738,
+  "voivodeship": "wielkopolskie"
+ },
+ "Ostrów Wielkopolski": {
+  "lat": 51.6495,
+  "lon": 17.8167,
+  "voivodeship": "wielkopolskie"
+ },
+ "Lubin": {
+  "lat": 51.3974,
+  "lon": 16.2051,
+  "voivodeship": "dolnośląskie"
+ },
+ "Pruszków": {
+  "lat": 52.1626,
+  "lon": 20.808,
+  "voivodeship": "mazowieckie"
+ },
+ "Inowrocław": {
+  "lat": 52.7952,
+  "lon": 18.2596,
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ "Stargard": {
+  "lat": 53.338,
+  "lon": 15.035,
+  "voivodeship": "zachodniopomorskie"
+ },
+ "Gniezno": {
+  "lat": 52.536,
+  "lon": 17.5959,
+  "voivodeship": "wielkopolskie"
+ },
+ "Tarnowskie Góry": {
+  "lat": 50.4445,
+  "lon": 18.8555,
+  "voivodeship": "śląskie"
+ },
+ "Głogów": {
+  "lat": 51.6634,
+  "lon": 16.0861,
+  "voivodeship": "dolnośląskie"
+ },
+ "Ostrowiec Świętokrzyski": {
+  "lat": 50.9399,
+  "lon": 21.3874,
+  "voivodeship": "świętokrzyskie"
+ },
+ "Pabianice": {
+  "lat": 51.664,
+  "lon": 19.3535,
+  "voivodeship": "łódzkie"
+ },
+ "Ełk": {
+  "lat": 53.8248,
+  "lon": 22.3616,
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ "Tomaszów Mazowiecki": {
+  "lat": 51.5317,
+  "lon": 20.0084,
+  "voivodeship": "łódzkie"
+ },
+ "Mielec": {
+  "lat": 50.2895,
+  "lon": 21.4229,
+  "voivodeship": "podkarpackie"
+ },
+ "Tczew": {
+  "lat": 54.087,
+  "lon": 18.8,
+  "voivodeship": "pomorskie"
+ },
+ "Rumia": {
+  "lat": 54.5701,
+  "lon": 18.3927,
+  "voivodeship": "pomorskie"
+ },
+ "Stalowa Wola": {
+  "lat": 50.5653,
+  "lon": 22.0644,
+  "voivodeship": "podkarpackie"
+ },
+ "Kędzierzyn-Koźle": {
+  "lat": 50.3449,
+  "lon": 18.211,
+  "voivodeship": "opolskie"
+ },
+ "Będzin": {
+  "lat": 50.3231,
+  "lon": 19.1322,
+  "voivodeship": "śląskie"
+ },
+ "Zgierz": {
+  "lat": 51.8561,
+  "lon": 19.4052,
+  "voivodeship": "łódzkie"
+ },
+ "Legionowo": {
+  "lat": 52.3952,
+  "lon": 20.9308,
+  "voivodeship": "mazowieckie"
+ },
+ "Piaseczno": {
+  "lat": 52.0747,
+  "lon": 21.0271,
+  "voivodeship": "mazowieckie"
+ },
+ "Świdnica": {
+  "lat": 50.8425,
+  "lon": 16.4871,
+  "voivodeship": "dolnośląskie"
+ },
+ "Bełchatów": {
+  "lat": 51.3667,
+  "lon": 19.3695,
+  "voivodeship": "łódzkie"
+ },
+ "Racibórz": {
+  "lat": 50.0917,
+  "lon": 18.2197,
+  "voivodeship": "śląskie"
+ },
+ "Marki": {
+  "lat": 52.3255,
+  "lon": 21.1055,
+  "voivodeship": "mazowieckie"
+ },
+ "Ząbki": {
+  "lat": 52.2935,
+  "lon": 21.1157,
+  "voivodeship": "mazowieckie"
+ },
+ "Wejherowo": {
+  "lat": 54.6026,
+  "lon": 18.2479,
+  "voivodeship": "pomorskie"
+ },
+ "Zawiercie": {
+  "lat": 50.4844,
+  "lon": 19.4334,
+  "voivodeship": "śląskie"
+ },
+ "Starogard Gdański": {
+  "lat": 53.9672,
+  "lon": 18.5321,
+  "voivodeship": "pomorskie"
+ },
+ "Wodzisław Śląski": {
+  "lat": 50.0024,
+  "lon": 18.463,
+  "voivodeship": "śląskie"
+ },
+ "Kołobrzeg": {
+  "lat": 54.176,
+  "lon": 15.5764,
+  "voivodeship": "zachodniopomorskie"
+ },
+ "Starachowice": {
+  "lat": 51.0519,
+  "lon": 21.0761,
+  "voivodeship": "świętokrzyskie"
+ },
+ "Otwock": {
+  "lat": 52.1041,
+  "lon": 21.2681,
+  "voivodeship": "mazowieckie"
  }
 }
