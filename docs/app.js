@@ -644,7 +644,7 @@
   async function main() {
     injectDefs();
     try {
-      const [d, g] = await Promise.all([fetch('data/cities.json').then(r => r.json()), fetch('data/geo.json').then(r => r.json())]);
+      const [d, g] = await Promise.all([fetch('data/cities.json', { cache: 'no-cache' }).then(r => r.json()), fetch('data/geo.json', { cache: 'no-cache' }).then(r => r.json())]);
       CITIES = d.cities; GEO = g;
       CITIES.forEach(c => BY_NAME.set(c.name, c));
       buildStats();
